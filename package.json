@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "description": "nguyen you ui",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ny-ui/nyui"
+  }
 }
