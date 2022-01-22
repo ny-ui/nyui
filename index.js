@@ -1,6 +1,4 @@
-function greeting(name) {
-  console.log("Hello " + name);
-}
-module.exports = {
-  greeting,
+import React from "react";
+export const Button = () => {
+  return <button>Boop</button>;
 };
