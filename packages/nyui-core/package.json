@@ -10,8 +10,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "app-root-dir": "^1.0.2"
   }
 }
