@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { greeting } from '@nyui/core'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  greeting('world')
   return (
     <div className={styles.container}>
       <Head>
