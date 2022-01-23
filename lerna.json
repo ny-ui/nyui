@@ -1,6 +1,7 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
+  "version": "independent",
   "packages": [
     "packages/*"
   ],
@@ -15,6 +16,5 @@
       ],
       "registry": "https://registry.npmjs.org/"
     }
-  },
-  "version": "1.0.5"
+  }
 }
