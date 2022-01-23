@@ -8,9 +8,9 @@
     "url": "https://github.com/ny-ui/nyui"
   },
   "workspaces": [
-    "apps/*",
     "packages/*",
-    "examples/*"
+    "examples/*",
+    "docs"
   ],
   "scripts": {
     "build": "turbo run build",
