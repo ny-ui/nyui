@@ -1,4 +1,4 @@
-import theme from './theme/defaultTheme';
+import theme from './theme';
 
 const core = {
   theme

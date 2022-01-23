@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
+import core from '@nyui/core'
 
 function Button() {
-  return <button>NYUI Button</button>;
-};
+  return <button style={{ background: core.theme.primary }}>NYUI Button</button>
+}
 
-export default Button;
+export default Button
