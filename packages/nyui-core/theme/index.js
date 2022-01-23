@@ -1,15 +1,20 @@
 import defaultTheme from './default-theme'
 
-//  const result = resolveConfig([userConfig, defaultConfig])
+const IS_SERVER = typeof window === 'undefined'
 
 const resolveTheme = () => {
   let userTheme = {}
-  // console.log(path.resolve('./nyui.config.js'))
-  if (typeof window === 'undefined') {
-    userTheme.primary = '#dc2626'
-    console.log(require.main.filename)
-    console.log(__dirname, 'dirname')
-    console.log('find nyui.config.js')
+  if (IS_SERVER) {
+    try {
+      const { cosmiconfigSync } = require('cosmiconfig')
+      const explorer = cosmiconfigSync('nyui')
+      const result = explorer.search()
+      if (result) {
+        userTheme = result.config?.theme || {}
+      }
+    } catch {
+      // do nothing
+    }
   }
   return { ...defaultTheme, ...userTheme }
 }

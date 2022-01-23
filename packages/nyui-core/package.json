@@ -10,5 +10,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "cosmiconfig": "^7.0.1"
   }
 }

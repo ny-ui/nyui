@@ -1,4 +1,2 @@
-const { createVanillaExtractPlugin } = require('@vanilla-extract/next-plugin')
-const withVanillaExtract = createVanillaExtractPlugin()
-
-module.exports = withVanillaExtract()
+const withTM = require('next-transpile-modules')(['@nyui/core', '@nyui/button'])
+module.exports = withTM({})
