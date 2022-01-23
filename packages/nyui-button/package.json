@@ -1,0 +1,14 @@
+{
+  "name": "@nyui/button",
+  "version": "1.0.5",
+  "description": "nguyen you ui button",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ny-ui/nyui"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
