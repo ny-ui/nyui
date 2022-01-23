@@ -1,5 +1,5 @@
 function greeting(name) {
-  console.log("Hello " + name);
+  console.log("Hellooooo " + name);
 }
 module.exports = {
   greeting,
