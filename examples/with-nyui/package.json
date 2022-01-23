@@ -1,7 +1,7 @@
 {
   "name": "with-nyui",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "next dev --port 3002",
     "build": "next build",
@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nyui/button": "1.0.7",
+    "@nyui/core": "1.0.7",
     "next": "12.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "@nyui/core": "*",
-    "@nyui/button": "*"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "eslint": "8.7.0",
