@@ -1,6 +1,7 @@
-function greeting(name) {
-  console.log("Helloooo1123123o " + name);
+import theme from './theme/defaultTheme';
+
+const core = {
+  theme
 }
-module.exports = {
-  greeting,
-};
+
+export default core;

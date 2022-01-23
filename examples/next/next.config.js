@@ -1,3 +1,3 @@
-const withTM = require('next-transpile-modules')(['@nyui/button']);
+const withTM = require('next-transpile-modules')(['@nyui/core','@nyui/button']);
 
 module.exports = withTM({});
