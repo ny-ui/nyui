@@ -1,4 +1,7 @@
-import * as React from "react";
-export const Button = () => {
-  return <button>NYUI Buttonnnn</button>;
+import React from "react";
+
+function Button() {
+  return <button>NYUI Button</button>;
 };
+
+export default Button;
