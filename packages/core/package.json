@@ -1,0 +1,12 @@
+{
+    "name": "@nyui/core",
+    "version": "1.0.3",
+    "description": "nguyen you ui",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ny-ui/nyui"
+    }
+  }
+  
