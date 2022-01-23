@@ -1,6 +1,6 @@
 {
   "name": "@nyui/button",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "nguyen you ui button",
   "main": "index.js",
   "license": "MIT",
@@ -12,6 +12,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@nyui/core": "*"
+    "@nyui/core": "1.0.9"
   }
 }
